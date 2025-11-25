@@ -5,6 +5,9 @@ rm -rf ~/.themes/*
 rm -rf ~/.icons/*
 rm -rf ~/.local/share/icons/*
 
+# install required apps and dependencies...
+sudo dnf install git gnome-tweaks variety -y
+
 # install gtk themes...
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1 && cd WhiteSur-gtk-theme/
 ./install.sh -l -o solid -c dark -t grey --round --shell -i fedora
