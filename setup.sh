@@ -8,6 +8,6 @@ sudo systemctl set-default graphical.target
 sudo systemctl enable gdm.service
 
 # install required tweaks...
-sudo dnf install git chromium gnome-tweaks google-noto-sans-bengali-fonts variety -y
+sudo dnf install chromium gnome-tweaks google-noto-sans-bengali-fonts variety -y
 
 sudo reboot
